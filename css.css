@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  padding: 20px;
+  background-image: url('giphy (228).gif');
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #6062c7;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #050675;
+}
+
+#fighters {
+  margin: 20px;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+        #fighters {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .fighter {
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            margin: 10px;
+        }
